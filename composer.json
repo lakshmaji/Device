@@ -1,0 +1,24 @@
+{
+    "name": "lakshmajim/device",
+    "description": "device detection",
+    "keywords": [
+        "Device", "REST", "SECURITY", "API", "User", "agent"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lakshmajim",
+            "email": "lakshmaji9@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"    
+    },
+    "autoload": {
+        "psr-4": {
+            "Lakshmajim\\Device\\": "src/",
+            "Lakshmajim\\Device\\Middleware\\": "src/Middleware/"
+        }
+    }
+}
